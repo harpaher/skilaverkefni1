@@ -16,6 +16,9 @@ main {
 nav a {
   text-decoration: none;
   color: rgb(61, 66, 62);
+  background-color: rgb(246, 246, 242);
+  padding: 10px 20px;
+  border-radius: 20px;
 }
 
 a:hover {
@@ -24,9 +27,17 @@ a:hover {
 
 nav li {
   display: inline-block;
-  margin: 0 5px 0;
+  margin: 0;
   padding: 5px;
-  margin: 25px 0px;
+}
+
+nav a:hover {
+  background-color: rgb(220, 218, 200);
+}
+
+nav ul {
+  padding-left: 0;
+  list-style: none;
 }
 
 h2 + p {
