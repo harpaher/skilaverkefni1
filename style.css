@@ -17,6 +17,8 @@ main {
 img {
   width: 25%;
   border-radius: 16px;
+  display: block;
+  margin: 30px auto 0;
 }
 
 nav a {
@@ -41,11 +43,6 @@ nav a:hover {
   background-color: rgb(220, 218, 200);
 }
 
-nav ul {
-  padding-left: 0;
-  list-style: none;
-}
-
 h1 {
   margin-top: 0;
 }
@@ -54,10 +51,64 @@ h2 + p {
   font-style: italic;
 }
 
+nav ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.kort {
+  background-color: rgb(173, 190, 173);
+  border: 2px solid rgb(158, 159, 160);
+  padding: 10px 24px;
+  border-radius: 16px;
+  margin: 10px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid rgb(15, 14, 21);
+  padding: 8px 10px;
+}
+
+label {
+  display: block;
+  margin-top: 8px;
+}
+
+input,
+textarea {
+  width: 80%;
+  padding: 6px;
+  border: 2px solid rgb(161, 149, 149);
+  border-radius: 8px;
+}
+
+button {
+  margin-top: 14px;
+  margin-bottom: 10px;
+  padding: 8px 26px;
+  border-radius: 8px;
+  border: 1px solid rgb(158, 159, 160);
+  background-color: rgb(173, 190, 173);
+  color: rgb(12, 12, 13);
+  display: block;
+}
+
+button:hover {
+  cursor: pointer;
+  font-weight: bold;
+  background-color: rgb(236, 233, 206);
+}
+
 header,
 footer {
   color: rgb(7, 4, 4);
   text-align: center;
   padding: 10px;
+  border-top: 1px solid rgb(158, 159, 160);
   background-color: rgb(236, 233, 206);
 }
